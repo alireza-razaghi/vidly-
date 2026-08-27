@@ -1,0 +1,11 @@
+[MASTER]
+load-plugins=pylint_django
+django-settings-module=myproject.settings
+
+[MESSAGES CONTROL]
+disable=missing-docstring,
+    too-few-public-methods,
+    no-member
+
+[FORMAT]
+max-line-length=120
