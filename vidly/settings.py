@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'vidly.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         default=os.environ.get('DATABASE_URL'),
-        conn_max_age=200,
+        conn_max_age=600,
     )
 }
 
