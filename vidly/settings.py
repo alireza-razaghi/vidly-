@@ -130,3 +130,4 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+ALLOWED_HOSTS = ['web-production-1bf1f.up.railway.app', 'localhost', '127.0.0.1']
